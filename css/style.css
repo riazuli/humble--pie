@@ -1,0 +1,238 @@
+body {
+  font-family: "Cantarell", sans-serif;
+  color: #2d2824;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 16px;
+  background: #faefef;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  margin: 0 0 15px;
+  line-height: 1.2;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+}
+header {
+  background-image: url(../img/hero-banner.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  padding-bottom: 250px;
+}
+header.contact {
+  background-image: url(../img/micheile-henderson-7NFwwp-vZk8-unsplash.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  padding-bottom: 250px;
+}
+
+header .navigation {
+  background-color: rgba(250, 239, 239, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px 10px 50px;
+}
+
+header .navigation ul {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header .navigation ul li a {
+  display: inline-block;
+  color: #37342f;
+  font-weight: 400;
+  font-size: 24px;
+  padding: 20px;
+  transition: all 0.3s ease;
+  font-family: "Fjalla One", sans-serif;
+  text-transform: uppercase;
+}
+
+header .navigation ul li a:hover {
+  color: #37342f;
+  text-decoration: underline;
+}
+.call-to-action,
+.contact-us-form {
+  background-color: rgba(250, 239, 239, 0.7);
+  padding: 60px 50px 30px;
+  text-align: center;
+  margin: 250px auto 0px;
+  max-width: 550px;
+  border: 1px solid #37342f;
+}
+
+.call-to-action h2,
+.contact-us-form h2 {
+  font-size: 72px;
+  color: #f15156;
+}
+
+.call-to-action p {
+  text-align: left;
+  font-size: 24px;
+}
+.contact-us-form p {
+  text-align: left;
+}
+.contact-us-form p.big {
+  font-size: 24px;
+}
+
+.primary-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #f15156;
+  font-size: 30px;
+  color: #faefef;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+  border: 0px;
+}
+
+.primary-button:hover {
+  color: #faefef;
+  text-decoration: underline;
+}
+
+.our-story {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f5e0e0;
+  margin-top: 100px;
+}
+
+.our-story .text,
+.our-story .image {
+  flex: 0 0 auto;
+  width: 50%;
+}
+.our-story .text {
+  padding: 20px 50px;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.our-story .text h2 {
+  color: #f15156;
+  font-size: 48px;
+  text-align: center;
+}
+
+.find-us-now {
+  background-image: url(../img/div-bg-image.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 50px 50px 20px 50px;
+  margin-top: 100px;
+}
+
+.find-us-now h2 {
+  font-size: 48px;
+  color: #f15156;
+  text-align: center;
+}
+
+.find-us-now p a {
+  color: #f15156;
+  text-decoration: underline;
+}
+
+.locations {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.locations .single-location {
+  flex: 0 0 auto;
+  width: 33.3333%;
+  text-align: center;
+  margin-top: 50px;
+  padding: 0px 20px;
+}
+
+.locations .single-location h4 {
+  color: #2d2824;
+  font-family: Cantarell, sans-serif;
+  font-size: 24px;
+  margin-bottom: 35px;
+}
+footer {
+  background-color: #f5e0e0;
+  padding: 50px 60px;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 100px;
+}
+
+footer h4 {
+  color: #37342f;
+  font-size: 24px;
+  font-family: "Cantarell", sans-serif;
+  margin-bottom: 20px;
+}
+
+footer .social-links a {
+  display: inline-block;
+  padding: 10px;
+}
+
+footer .social-links {
+  margin-bottom: 20px;
+}
+
+.contact-us-form form {
+  border-top: 2px solid #2d2824;
+  padding: 40px 0px 20px;
+}
+
+.contact-us-form form .form-group {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.contact-us-form form .form-group label {
+  display: block;
+  color: #2d2824;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.contact-us-form form .form-group input,
+.contact-us-form form .form-group textarea {
+  width: 100%;
+  background-color: #faefef;
+  border: 1px solid #000000;
+  min-height: 50px;
+}
+.contact-us-form form .form-group input[type="checkbox"] {
+  width: auto;
+  min-height: auto;
+}
+
+.contact-us-form form .form-group.checkbox label {
+  display: inline-block;
+}
+
+.contact-us-form .primary-button {
+  padding: 15px 60px;
+  font-size: 24px;
+  margin-top: 20px;
+}
